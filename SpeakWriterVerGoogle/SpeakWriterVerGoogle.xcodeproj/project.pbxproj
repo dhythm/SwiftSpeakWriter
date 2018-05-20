@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02B747820B13C6A00519A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B747720B13C6A00519A2D /* AppDelegate.swift */; };
+		C02B747A20B13C6A00519A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B747920B13C6A00519A2D /* ViewController.swift */; };
+		C02B747D20B13C6A00519A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B747B20B13C6A00519A2D /* Main.storyboard */; };
+		C02B747F20B13C6B00519A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02B747E20B13C6B00519A2D /* Assets.xcassets */; };
+		C02B748220B13C6B00519A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B748020B13C6B00519A2D /* LaunchScreen.storyboard */; };
+		C02B748D20B13C6B00519A2D /* SpeakWriterVerGoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B748C20B13C6B00519A2D /* SpeakWriterVerGoogleTests.swift */; };
+		C02B749820B13C6B00519A2D /* SpeakWriterVerGoogleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B749720B13C6B00519A2D /* SpeakWriterVerGoogleUITests.swift */; };
+		C02B74A620B1459000519A2D /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B74A520B1459000519A2D /* AudioController.swift */; };
+		C02B74A820B148E500519A2D /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B74A720B148E500519A2D /* SpeechRecognitionService.swift */; };
+		EF7B9B8DA31F62BC10230482 /* Pods_SpeakWriterVerGoogle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF79FAF46CB01369DE73327 /* Pods_SpeakWriterVerGoogle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C02B748920B13C6B00519A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B746C20B13C6A00519A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02B747320B13C6A00519A2D;
+			remoteInfo = SpeakWriterVerGoogle;
+		};
+		C02B749420B13C6B00519A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B746C20B13C6A00519A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02B747320B13C6A00519A2D;
+			remoteInfo = SpeakWriterVerGoogle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A14DB532A694D99B80768DF6 /* Pods-SpeakWriterVerGoogle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakWriterVerGoogle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeakWriterVerGoogle/Pods-SpeakWriterVerGoogle.debug.xcconfig"; sourceTree = "<group>"; };
+		C02B747420B13C6A00519A2D /* SpeakWriterVerGoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakWriterVerGoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B747720B13C6A00519A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C02B747920B13C6A00519A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C02B747C20B13C6A00519A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C02B747E20B13C6B00519A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C02B748120B13C6B00519A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C02B748320B13C6B00519A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B748820B13C6B00519A2D /* SpeakWriterVerGoogleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakWriterVerGoogleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B748C20B13C6B00519A2D /* SpeakWriterVerGoogleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakWriterVerGoogleTests.swift; sourceTree = "<group>"; };
+		C02B748E20B13C6B00519A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B749320B13C6B00519A2D /* SpeakWriterVerGoogleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakWriterVerGoogleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B749720B13C6B00519A2D /* SpeakWriterVerGoogleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakWriterVerGoogleUITests.swift; sourceTree = "<group>"; };
+		C02B749920B13C6B00519A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B74A520B1459000519A2D /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		C02B74A720B148E500519A2D /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		CBF79FAF46CB01369DE73327 /* Pods_SpeakWriterVerGoogle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeakWriterVerGoogle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0AD0B4DECB825CB6EFC087 /* Pods-SpeakWriterVerGoogle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakWriterVerGoogle.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeakWriterVerGoogle/Pods-SpeakWriterVerGoogle.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02B747120B13C6A00519A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7B9B8DA31F62BC10230482 /* Pods_SpeakWriterVerGoogle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B748520B13C6B00519A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B749020B13C6B00519A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F9DCD6BD90729677FA225D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBF79FAF46CB01369DE73327 /* Pods_SpeakWriterVerGoogle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6653B5CD065D806933CBB832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A14DB532A694D99B80768DF6 /* Pods-SpeakWriterVerGoogle.debug.xcconfig */,
+				EE0AD0B4DECB825CB6EFC087 /* Pods-SpeakWriterVerGoogle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C02B746B20B13C6A00519A2D = {
+			isa = PBXGroup;
+			children = (
+				C02B747620B13C6A00519A2D /* SpeakWriterVerGoogle */,
+				C02B748B20B13C6B00519A2D /* SpeakWriterVerGoogleTests */,
+				C02B749620B13C6B00519A2D /* SpeakWriterVerGoogleUITests */,
+				C02B747520B13C6A00519A2D /* Products */,
+				6653B5CD065D806933CBB832 /* Pods */,
+				5F9DCD6BD90729677FA225D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C02B747520B13C6A00519A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02B747420B13C6A00519A2D /* SpeakWriterVerGoogle.app */,
+				C02B748820B13C6B00519A2D /* SpeakWriterVerGoogleTests.xctest */,
+				C02B749320B13C6B00519A2D /* SpeakWriterVerGoogleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02B747620B13C6A00519A2D /* SpeakWriterVerGoogle */ = {
+			isa = PBXGroup;
+			children = (
+				C02B747720B13C6A00519A2D /* AppDelegate.swift */,
+				C02B747920B13C6A00519A2D /* ViewController.swift */,
+				C02B747B20B13C6A00519A2D /* Main.storyboard */,
+				C02B747E20B13C6B00519A2D /* Assets.xcassets */,
+				C02B748020B13C6B00519A2D /* LaunchScreen.storyboard */,
+				C02B748320B13C6B00519A2D /* Info.plist */,
+				C02B74A520B1459000519A2D /* AudioController.swift */,
+				C02B74A720B148E500519A2D /* SpeechRecognitionService.swift */,
+			);
+			path = SpeakWriterVerGoogle;
+			sourceTree = "<group>";
+		};
+		C02B748B20B13C6B00519A2D /* SpeakWriterVerGoogleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C02B748C20B13C6B00519A2D /* SpeakWriterVerGoogleTests.swift */,
+				C02B748E20B13C6B00519A2D /* Info.plist */,
+			);
+			path = SpeakWriterVerGoogleTests;
+			sourceTree = "<group>";
+		};
+		C02B749620B13C6B00519A2D /* SpeakWriterVerGoogleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C02B749720B13C6B00519A2D /* SpeakWriterVerGoogleUITests.swift */,
+				C02B749920B13C6B00519A2D /* Info.plist */,
+			);
+			path = SpeakWriterVerGoogleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02B747320B13C6A00519A2D /* SpeakWriterVerGoogle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B749C20B13C6B00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterVerGoogle" */;
+			buildPhases = (
+				608D2A7A54823EA4E8565978 /* [CP] Check Pods Manifest.lock */,
+				C02B747020B13C6A00519A2D /* Sources */,
+				C02B747120B13C6A00519A2D /* Frameworks */,
+				C02B747220B13C6A00519A2D /* Resources */,
+				575DFB999067DAE96D922511 /* [CP] Embed Pods Frameworks */,
+				46DF93C7626D7A2A06C27FCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakWriterVerGoogle;
+			productName = SpeakWriterVerGoogle;
+			productReference = C02B747420B13C6A00519A2D /* SpeakWriterVerGoogle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C02B748720B13C6B00519A2D /* SpeakWriterVerGoogleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B749F20B13C6B00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterVerGoogleTests" */;
+			buildPhases = (
+				C02B748420B13C6B00519A2D /* Sources */,
+				C02B748520B13C6B00519A2D /* Frameworks */,
+				C02B748620B13C6B00519A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02B748A20B13C6B00519A2D /* PBXTargetDependency */,
+			);
+			name = SpeakWriterVerGoogleTests;
+			productName = SpeakWriterVerGoogleTests;
+			productReference = C02B748820B13C6B00519A2D /* SpeakWriterVerGoogleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C02B749220B13C6B00519A2D /* SpeakWriterVerGoogleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B74A220B13C6B00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterVerGoogleUITests" */;
+			buildPhases = (
+				C02B748F20B13C6B00519A2D /* Sources */,
+				C02B749020B13C6B00519A2D /* Frameworks */,
+				C02B749120B13C6B00519A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02B749520B13C6B00519A2D /* PBXTargetDependency */,
+			);
+			name = SpeakWriterVerGoogleUITests;
+			productName = SpeakWriterVerGoogleUITests;
+			productReference = C02B749320B13C6B00519A2D /* SpeakWriterVerGoogleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02B746C20B13C6A00519A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "y-okada";
+				TargetAttributes = {
+					C02B747320B13C6A00519A2D = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					C02B748720B13C6B00519A2D = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = C02B747320B13C6A00519A2D;
+					};
+					C02B749220B13C6B00519A2D = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = C02B747320B13C6A00519A2D;
+					};
+				};
+			};
+			buildConfigurationList = C02B746F20B13C6A00519A2D /* Build configuration list for PBXProject "SpeakWriterVerGoogle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C02B746B20B13C6A00519A2D;
+			productRefGroup = C02B747520B13C6A00519A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02B747320B13C6A00519A2D /* SpeakWriterVerGoogle */,
+				C02B748720B13C6B00519A2D /* SpeakWriterVerGoogleTests */,
+				C02B749220B13C6B00519A2D /* SpeakWriterVerGoogleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02B747220B13C6A00519A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B748220B13C6B00519A2D /* LaunchScreen.storyboard in Resources */,
+				C02B747F20B13C6B00519A2D /* Assets.xcassets in Resources */,
+				C02B747D20B13C6A00519A2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B748620B13C6B00519A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B749120B13C6B00519A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46DF93C7626D7A2A06C27FCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeakWriterVerGoogle/Pods-SpeakWriterVerGoogle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		575DFB999067DAE96D922511 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpeakWriterVerGoogle/Pods-SpeakWriterVerGoogle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/googleapis/googleapis.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/googleapis.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeakWriterVerGoogle/Pods-SpeakWriterVerGoogle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608D2A7A54823EA4E8565978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeakWriterVerGoogle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02B747020B13C6A00519A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B747A20B13C6A00519A2D /* ViewController.swift in Sources */,
+				C02B74A620B1459000519A2D /* AudioController.swift in Sources */,
+				C02B747820B13C6A00519A2D /* AppDelegate.swift in Sources */,
+				C02B74A820B148E500519A2D /* SpeechRecognitionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B748420B13C6B00519A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B748D20B13C6B00519A2D /* SpeakWriterVerGoogleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B748F20B13C6B00519A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B749820B13C6B00519A2D /* SpeakWriterVerGoogleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C02B748A20B13C6B00519A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02B747320B13C6A00519A2D /* SpeakWriterVerGoogle */;
+			targetProxy = C02B748920B13C6B00519A2D /* PBXContainerItemProxy */;
+		};
+		C02B749520B13C6B00519A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02B747320B13C6A00519A2D /* SpeakWriterVerGoogle */;
+			targetProxy = C02B749420B13C6B00519A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C02B747B20B13C6A00519A2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02B747C20B13C6A00519A2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C02B748020B13C6B00519A2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02B748120B13C6B00519A2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C02B749A20B13C6B00519A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C02B749B20B13C6B00519A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C02B749D20B13C6B00519A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14DB532A694D99B80768DF6 /* Pods-SpeakWriterVerGoogle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterVerGoogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterVerGoogle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C02B749E20B13C6B00519A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0AD0B4DECB825CB6EFC087 /* Pods-SpeakWriterVerGoogle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterVerGoogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterVerGoogle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C02B74A020B13C6B00519A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterVerGoogleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterVerGoogleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakWriterVerGoogle.app/SpeakWriterVerGoogle";
+			};
+			name = Debug;
+		};
+		C02B74A120B13C6B00519A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterVerGoogleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterVerGoogleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakWriterVerGoogle.app/SpeakWriterVerGoogle";
+			};
+			name = Release;
+		};
+		C02B74A320B13C6B00519A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterVerGoogleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterVerGoogleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeakWriterVerGoogle;
+			};
+			name = Debug;
+		};
+		C02B74A420B13C6B00519A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterVerGoogleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterVerGoogleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeakWriterVerGoogle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02B746F20B13C6A00519A2D /* Build configuration list for PBXProject "SpeakWriterVerGoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B749A20B13C6B00519A2D /* Debug */,
+				C02B749B20B13C6B00519A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B749C20B13C6B00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterVerGoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B749D20B13C6B00519A2D /* Debug */,
+				C02B749E20B13C6B00519A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B749F20B13C6B00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterVerGoogleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B74A020B13C6B00519A2D /* Debug */,
+				C02B74A120B13C6B00519A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B74A220B13C6B00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterVerGoogleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B74A320B13C6B00519A2D /* Debug */,
+				C02B74A420B13C6B00519A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02B746C20B13C6A00519A2D /* Project object */;
+}

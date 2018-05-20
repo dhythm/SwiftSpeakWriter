@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02B738E20B0DAFC00519A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B738D20B0DAFC00519A2D /* AppDelegate.swift */; };
+		C02B739020B0DAFC00519A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B738F20B0DAFC00519A2D /* ViewController.swift */; };
+		C02B739320B0DAFC00519A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B739120B0DAFC00519A2D /* Main.storyboard */; };
+		C02B739520B0DAFD00519A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02B739420B0DAFD00519A2D /* Assets.xcassets */; };
+		C02B739820B0DAFD00519A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B739620B0DAFD00519A2D /* LaunchScreen.storyboard */; };
+		C02B73A320B0DAFD00519A2D /* SpeakWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B73A220B0DAFD00519A2D /* SpeakWriterTests.swift */; };
+		C02B73AE20B0DAFD00519A2D /* SpeakWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B73AD20B0DAFD00519A2D /* SpeakWriterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C02B739F20B0DAFD00519A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B738220B0DAFC00519A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02B738920B0DAFC00519A2D;
+			remoteInfo = SpeakWriter;
+		};
+		C02B73AA20B0DAFD00519A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B738220B0DAFC00519A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02B738920B0DAFC00519A2D;
+			remoteInfo = SpeakWriter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C02B738A20B0DAFC00519A2D /* SpeakWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B738D20B0DAFC00519A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C02B738F20B0DAFC00519A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C02B739220B0DAFC00519A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C02B739420B0DAFD00519A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C02B739720B0DAFD00519A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C02B739920B0DAFD00519A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B739E20B0DAFD00519A2D /* SpeakWriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakWriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B73A220B0DAFD00519A2D /* SpeakWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakWriterTests.swift; sourceTree = "<group>"; };
+		C02B73A420B0DAFD00519A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B73A920B0DAFD00519A2D /* SpeakWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B73AD20B0DAFD00519A2D /* SpeakWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakWriterUITests.swift; sourceTree = "<group>"; };
+		C02B73AF20B0DAFD00519A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02B738720B0DAFC00519A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B739B20B0DAFD00519A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B73A620B0DAFD00519A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02B738120B0DAFC00519A2D = {
+			isa = PBXGroup;
+			children = (
+				C02B738C20B0DAFC00519A2D /* SpeakWriter */,
+				C02B73A120B0DAFD00519A2D /* SpeakWriterTests */,
+				C02B73AC20B0DAFD00519A2D /* SpeakWriterUITests */,
+				C02B738B20B0DAFC00519A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02B738B20B0DAFC00519A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02B738A20B0DAFC00519A2D /* SpeakWriter.app */,
+				C02B739E20B0DAFD00519A2D /* SpeakWriterTests.xctest */,
+				C02B73A920B0DAFD00519A2D /* SpeakWriterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02B738C20B0DAFC00519A2D /* SpeakWriter */ = {
+			isa = PBXGroup;
+			children = (
+				C02B738D20B0DAFC00519A2D /* AppDelegate.swift */,
+				C02B738F20B0DAFC00519A2D /* ViewController.swift */,
+				C02B739120B0DAFC00519A2D /* Main.storyboard */,
+				C02B739420B0DAFD00519A2D /* Assets.xcassets */,
+				C02B739620B0DAFD00519A2D /* LaunchScreen.storyboard */,
+				C02B739920B0DAFD00519A2D /* Info.plist */,
+			);
+			path = SpeakWriter;
+			sourceTree = "<group>";
+		};
+		C02B73A120B0DAFD00519A2D /* SpeakWriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C02B73A220B0DAFD00519A2D /* SpeakWriterTests.swift */,
+				C02B73A420B0DAFD00519A2D /* Info.plist */,
+			);
+			path = SpeakWriterTests;
+			sourceTree = "<group>";
+		};
+		C02B73AC20B0DAFD00519A2D /* SpeakWriterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C02B73AD20B0DAFD00519A2D /* SpeakWriterUITests.swift */,
+				C02B73AF20B0DAFD00519A2D /* Info.plist */,
+			);
+			path = SpeakWriterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02B738920B0DAFC00519A2D /* SpeakWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B73B220B0DAFD00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriter" */;
+			buildPhases = (
+				C02B738620B0DAFC00519A2D /* Sources */,
+				C02B738720B0DAFC00519A2D /* Frameworks */,
+				C02B738820B0DAFC00519A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakWriter;
+			productName = SpeakWriter;
+			productReference = C02B738A20B0DAFC00519A2D /* SpeakWriter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C02B739D20B0DAFD00519A2D /* SpeakWriterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B73B520B0DAFD00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterTests" */;
+			buildPhases = (
+				C02B739A20B0DAFD00519A2D /* Sources */,
+				C02B739B20B0DAFD00519A2D /* Frameworks */,
+				C02B739C20B0DAFD00519A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02B73A020B0DAFD00519A2D /* PBXTargetDependency */,
+			);
+			name = SpeakWriterTests;
+			productName = SpeakWriterTests;
+			productReference = C02B739E20B0DAFD00519A2D /* SpeakWriterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C02B73A820B0DAFD00519A2D /* SpeakWriterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B73B820B0DAFD00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterUITests" */;
+			buildPhases = (
+				C02B73A520B0DAFD00519A2D /* Sources */,
+				C02B73A620B0DAFD00519A2D /* Frameworks */,
+				C02B73A720B0DAFD00519A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02B73AB20B0DAFD00519A2D /* PBXTargetDependency */,
+			);
+			name = SpeakWriterUITests;
+			productName = SpeakWriterUITests;
+			productReference = C02B73A920B0DAFD00519A2D /* SpeakWriterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02B738220B0DAFC00519A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "y-okada";
+				TargetAttributes = {
+					C02B738920B0DAFC00519A2D = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					C02B739D20B0DAFD00519A2D = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = C02B738920B0DAFC00519A2D;
+					};
+					C02B73A820B0DAFD00519A2D = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = C02B738920B0DAFC00519A2D;
+					};
+				};
+			};
+			buildConfigurationList = C02B738520B0DAFC00519A2D /* Build configuration list for PBXProject "SpeakWriter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C02B738120B0DAFC00519A2D;
+			productRefGroup = C02B738B20B0DAFC00519A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02B738920B0DAFC00519A2D /* SpeakWriter */,
+				C02B739D20B0DAFD00519A2D /* SpeakWriterTests */,
+				C02B73A820B0DAFD00519A2D /* SpeakWriterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02B738820B0DAFC00519A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B739820B0DAFD00519A2D /* LaunchScreen.storyboard in Resources */,
+				C02B739520B0DAFD00519A2D /* Assets.xcassets in Resources */,
+				C02B739320B0DAFC00519A2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B739C20B0DAFD00519A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B73A720B0DAFD00519A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02B738620B0DAFC00519A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B739020B0DAFC00519A2D /* ViewController.swift in Sources */,
+				C02B738E20B0DAFC00519A2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B739A20B0DAFD00519A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B73A320B0DAFD00519A2D /* SpeakWriterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B73A520B0DAFD00519A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B73AE20B0DAFD00519A2D /* SpeakWriterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C02B73A020B0DAFD00519A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02B738920B0DAFC00519A2D /* SpeakWriter */;
+			targetProxy = C02B739F20B0DAFD00519A2D /* PBXContainerItemProxy */;
+		};
+		C02B73AB20B0DAFD00519A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02B738920B0DAFC00519A2D /* SpeakWriter */;
+			targetProxy = C02B73AA20B0DAFD00519A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C02B739120B0DAFC00519A2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02B739220B0DAFC00519A2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C02B739620B0DAFD00519A2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02B739720B0DAFD00519A2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C02B73B020B0DAFD00519A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C02B73B120B0DAFD00519A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C02B73B320B0DAFD00519A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C02B73B420B0DAFD00519A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C02B73B620B0DAFD00519A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakWriter.app/SpeakWriter";
+			};
+			name = Debug;
+		};
+		C02B73B720B0DAFD00519A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakWriter.app/SpeakWriter";
+			};
+			name = Release;
+		};
+		C02B73B920B0DAFD00519A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeakWriter;
+			};
+			name = Debug;
+		};
+		C02B73BA20B0DAFD00519A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeakWriterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y-okada.SpeakWriterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeakWriter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02B738520B0DAFC00519A2D /* Build configuration list for PBXProject "SpeakWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B73B020B0DAFD00519A2D /* Debug */,
+				C02B73B120B0DAFD00519A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B73B220B0DAFD00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B73B320B0DAFD00519A2D /* Debug */,
+				C02B73B420B0DAFD00519A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B73B520B0DAFD00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B73B620B0DAFD00519A2D /* Debug */,
+				C02B73B720B0DAFD00519A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B73B820B0DAFD00519A2D /* Build configuration list for PBXNativeTarget "SpeakWriterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B73B920B0DAFD00519A2D /* Debug */,
+				C02B73BA20B0DAFD00519A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02B738220B0DAFC00519A2D /* Project object */;
+}
